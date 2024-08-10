@@ -1,0 +1,44 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Archivos de configuración del entorno
+*.env
+*.env.*
+
+# Archivos y directorios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+*.db
+
+# Directorios de instalación
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos creados por editores y sistemas operativos
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Configuración de despliegue
+instance/
+*.bak
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
+.eggs/
